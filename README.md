@@ -26,7 +26,7 @@ Putting together some of the core features of the platform :
 `git clone git@github.com:shloch/Twitter_clone_fullstack.git`
 
 - enter project directory <br/>
-`cd Building_twitter`
+`cd Twitter_clone_fullstack`
 
 - run the database migrations <br/>
 `rails db:migrate`
