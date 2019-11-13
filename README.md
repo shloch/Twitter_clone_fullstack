@@ -1,4 +1,4 @@
-# Building_Facebook
+# Twitter clone fullstack
 
 Building a replica of Twitter.com
 Putting together some of the core features of the platform :
@@ -10,7 +10,7 @@ Putting together some of the core features of the platform :
 - retweeting
 - Signing is implemented with and Devise gem.
 
-![alt text](https://github.com/shloch/Building_Facebook/blob/controllers/DOCS/My_facebook_ERB.png)
+![alt text](https://github.com/shloch/Twitter_clone_fullstack/blob/dev/ERD_TWITTER%20CLONE.jpeg)
 
 ## Live Demo
 
@@ -23,7 +23,7 @@ Putting together some of the core features of the platform :
 ## setting up
 
 - clone project <br/>
-`git clone git@github.com:shloch/Twitter_clone_fullstack`
+`git clone git@github.com:shloch/Twitter_clone_fullstack.git`
 
 - enter project directory <br/>
 `cd Building_twitter`
