@@ -4,12 +4,35 @@
     <title>BuildingTwitter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
   </head>
-
   <body>
-    <%= yield %>
-  </body>
+    <div class="container-fluid">
+      <div class="row">
+        <!--LEFT BLUE BLOCK-->
+        <div class="col-sm-6 d-none d-sm-block left">
+          <div class="rows-3">
+            <h4> <i class="fas fa-search"></i> Follow your interests</h4>
+            <br />
+            <br />
+            <h4> <i class="fas fa-user-secret"></i> Hear what people are talking about</h4>
+            <br />
+            <br />
+            <h4> <i class="fas fa-dove"></i> </i>Join the conversation</h4>
+          <br />
+        </div>
+      </div>
+      <!--RIGHT DARK BLOCK-->
+      <div class="col-sm-6 col-12 right">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+  <%= render 'layouts/partials/footer' %>
+</body>
 </html>
