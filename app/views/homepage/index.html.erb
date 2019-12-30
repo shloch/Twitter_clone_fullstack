@@ -2,7 +2,9 @@
   <div class="logo-segment">
     <div id="logo"><i class="fab fa-twitter fa-2x"></i></div>
     <div id="sideLogin">
-      <a href="signIn.html"><button>Log in</button></a>
+      <%= link_to new_user_session_path do %>
+        <button>Log in</button>
+      <% end %>
     </div>
   </div>
   <h2>See What's happening in the world right now</h2>
@@ -11,10 +13,14 @@
   <br />
   <h4> Join twitter today</h4>
   <div id="signUp">
-    <a href="signUp.html"><button> Sign up</button></a>
+    <%= link_to new_user_registration_path do %>
+      <button> Sign up</button>
+    <% end %>
   </div>
   <br />
   <div id="signIn">
-    <a href="signIn.html"><button> Log in</button></a>
+    <%= link_to new_user_session_path do %>
+      <button>Log in</button>
+    <% end %>
   </div>
 </div>
